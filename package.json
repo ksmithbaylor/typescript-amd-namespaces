@@ -1,0 +1,17 @@
+{
+  "name": "amd-namespaces",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index.ts --module AMD --outFile out.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "patch-package"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "patch-package": "^6.2.0",
+    "typescript": "^3.8.2"
+  }
+}
